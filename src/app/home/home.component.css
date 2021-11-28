@@ -1,0 +1,20 @@
+.container{
+   
+    display: flex;
+    text-align: center;
+    padding-left: 450px;
+    margin-top: 150px;
+}
+.box{
+    
+    margin-left: 20px;
+    padding:20px;
+    background-color: greenyellow;
+}
+.box:hover{
+    background-color: rgb(96, 158, 2);
+    cursor: pointer;
+}
+h1, h2{
+   text-align: center;
+}

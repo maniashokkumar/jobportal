@@ -1,0 +1,14 @@
+<h1>Job List</h1>
+<div *ngFor="let info of jobdata;">
+    <div class="cards">
+        <h2><span>Comapny Name:</span> &nbsp;{{info.Company}}</h2>
+        <h3><span>Job Title:</span><br>{{info.title}}</h3>
+
+        <h3><span>Description:</span><br>{{info.description}}</h3>
+        <h3><span>Number of Vaccancy:</span><br>{{info.Vaccancy}}</h3>
+        <button (click)="apply()">Apply</button>
+
+    </div>
+
+
+</div>
